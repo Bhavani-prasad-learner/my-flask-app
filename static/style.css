@@ -1,0 +1,72 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #090c0f;
+  background-color: #e2d2e0;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  text-align: center;
+  max-width: 800px;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgb(240, 178, 178);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.content h1 {
+  color: #200472;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.content table {
+  width: 100%;
+  margin: 20px;
+  border-collapse: collapse;
+}
+.content table th, .content table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.content table th {
+  background-color: #419fdf;
+  color: white;
+}
+.content table a {
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  color: #090c0f;
+  border: 2px solid black;
+  text-align: center;
+  padding: 6px 9px;
+  border-radius: 23px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  justify-content: center;
+}
+.content table a:hover {
+  background-color: #419fdf;
+  color: #e2d2e0;
+}
+.content input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.content #add_btn {
+  background-color: #419fdf;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.content #add_btn:hover {
+  background-color: #cbdde9;
+  color: #090c0f;
+}/*# sourceMappingURL=style.css.map */
